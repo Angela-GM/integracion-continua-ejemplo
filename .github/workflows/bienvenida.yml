@@ -11,9 +11,9 @@ jobs:
     steps:
       - name: Saludar
         run: |
-          echo "Hola Github Actions!!!"
+          echo "¡Hola GitHub Actions!"
 
-    - name: fecha
-    run: |
+      - name: Obtener fecha
+        run: |
           echo date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]
-          ls -l 
+          ls -l
