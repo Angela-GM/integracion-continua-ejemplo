@@ -12,3 +12,8 @@ jobs:
       - name: Saludar
         run: |
           echo "Hola Github Actions!!!"
+
+    - name: fecha
+    run: |
+          echo date [-u|--utc|--universal] [MMDDhhmm[[CC]YY][.ss]]
+          ls -l 
